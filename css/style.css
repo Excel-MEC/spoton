@@ -1,0 +1,207 @@
+
+body {
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 17px;
+    line-height : 1.7em;
+    color       : #353e55;
+    font-weight : 300;
+    background  : #ffffff;
+    border      : 10px solid #fff;
+    }
+
+
+/* --------------------------------------
+ * LINK STYLE
+ *------------------------------------------*/
+ a {
+    color              : #f83d3d;
+    text-decoration    : none;
+    -webkit-transition : all 0.3s ease 0s;
+    -moz-transition    : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition         : all 0.3s ease 0s;
+    }
+
+a,
+a:active,
+a:focus,
+a:active {
+    text-decoration : none;
+    outline         : none
+    }
+
+a:hover,
+a:focus {
+    text-decoration : none;
+    color           : #b90202;
+    }
+
+p {
+    margin-bottom : 20px;
+    }
+
+p.lead {
+    font-size   : 19px;
+    line-height : 1.7em;
+    }
+
+ul {
+    margin     : 0;
+    padding    : 0;
+    list-style : none;
+    }
+
+/*Button Style*/
+.btn {
+    padding        : 10px 30px;
+    margin-bottom  : 0;
+    font-size      : 16px;
+    border-radius  : 0;
+    font-weight    : 500;
+    border-width   : 2px;
+    text-transform : uppercase;
+    }
+
+.btn-lg {
+    font-size : 18px;
+    padding   : 15px 30px
+    }
+
+/*btn-primary*/
+.btn-primary {
+    background-color : #fd367e;
+    border-color     : #fd367e;
+    }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:focus {
+    background   : transparent;
+    box-shadow: 0px 0px 2px #1CB589;
+    color        : #1E6375;
+    border-color : #1CB589;
+    }
+
+/*btn-default*/
+.btn-default {
+    color            : #1d1e1d;
+    box-shadow: none;
+    background-color : transparent;
+    border-color     : #1d1e1d;
+    }
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active:focus {
+    background-color : rgba(7, 141, 141, 0.7);
+    box-shadow: 0px 0px 2px #249595;
+    color            : #ffffff;
+    border-color     : #005757;
+    }
+
+button:focus,
+.btn:focus,
+.btn:active:focus {
+    outline : none;
+    }
+
+
+.header {
+    position : absolute;
+    left     : 15px;
+    right    : 15px;
+    top      : 40px;
+    z-index  : 9;
+    }
+
+/*-------------------
+ * Jumbotron
+ *-------------------*/
+
+ .jumbotron {
+    background            : url("../img/img-jumbotron-bg.jpg");
+    background-size       : cover;
+    padding               : 0;
+    margin                : 0;
+    height                : 100vh;
+    min-height            : 700px;
+    vertical-align        : middle;
+    position              : relative;
+    background-attachment : fixed;
+    background-repeat     : no-repeat;
+    background-position   : center center;
+    overflow              : hidden;
+    }
+
+.jumbotron .content {
+    color             : #343434;
+    position          : absolute;
+    top               : 50%;
+    left              : 0;
+    right             : 0;
+    height            : 30%;
+    width             : 100%;
+    margin            : 0 auto;
+    padding           : 0 10%;
+    transform         : translateY(-50%);
+    -webkit-transform : translateY(-50%);
+    -moz-transform    : translateY(-50%);
+    }
+
+.jumbotron .content h1 {
+    color       : #ffffff;
+    font-weight : bold;
+    }
+
+.jumbotron .content p.lead {
+    font-size   : 24px;
+    line-height : 1.5em;
+    color       : #dff8eb;
+    }
+
+.jumbotron .content .event-date {
+    font-size     : 24px;
+    margin-bottom : 40px;
+    }
+
+.jumbotron .btn {
+    margin-top : 40px;
+    }
+
+@media (max-width : 600px) {
+    .jumbotron .content {
+        min-height : auto;
+        }
+
+    .jumbotron .content h1 {
+        font-size : 26px;
+        }
+
+    .jumbotron .content p.lead {
+        font-size : 15px;
+        }
+    }
+
+/*---------------------------
+ * Section Wrapper
+ *---------------------------*/
+.section-wrapper {
+    padding : 100px 0;
+    }
+
+/*---------------------------
+ * Section Title
+ *---------------------------*/
+.section-title {
+    margin-bottom : 60px;
+    text-align    : center;
+    }
+
+.section-title h1 {
+    margin-bottom : 5px;
+    }
+
+.section-title p {
+    font-size : 18px;
+    color     : #888888;
+    }

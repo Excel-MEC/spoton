@@ -1,0 +1,363 @@
+body {
+    background: url("./../images/light-funky-lines.png");
+    border: 0;
+}
+
+.header {
+    top: 0;
+    height: 2em;
+}
+
+.navbar button {
+    border: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+.jumbotron {
+    background: linear-gradient(-90deg, rgba(235, 11, 11, 0.9) 0%, #eb0b0b 50%, #ffffff 50%, #e8f1f2 100%);
+    background-size: cover;
+    background-position: center;
+    /* background-image: -moz-radial-gradient(10% 10%, circle closest-side, #000000 0%, #0c0c0c 100%);
+    background-image: -webkit-radial-gradient(10% 10%, circle closest-side, #000000 0%, #0c0c0c 100%);
+    background-image: -ms-radial-gradient(10% 10%, circle closest-side, #000000 0%, #0c0c0c 100%);   */
+}
+
+.jumbotron .content {
+    top: 40%;
+}
+
+.jumbotron .content h1 {
+    margin-top: 10%;
+}
+
+.jumbotron .banner-logo {
+    margin-top: 30%;
+    margin-left: 30%;
+}
+
+.jumbotron .banner-logo img{
+    max-width: 80%;
+}
+
+.jumbotron .banner-text {
+    margin-top: 30%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.banner-text h2{
+    padding-top: 1em;
+    font-weight: 900;
+    font-size: 1.7em;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.banner-text h2 span {
+    font-size: 1.3em;
+}
+
+.banner-text p {
+    color: #ffffff;
+
+}
+
+.excel-link, .yka-link {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #0000004a;
+}
+.excel-link:hover, .excel-link:active{
+    color: #1FB888;
+    text-shadow: 2px 2px 8px #3C7986;
+}
+.yka-link:hover, .yka-link:active{
+    color: #F6F6F6;
+    text-shadow: 1px 1px 3px #181818, 2px 2px 8px rgb(133, 0, 0);
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 768px) {
+    .jumbotron {
+        background: none;
+    }
+
+    .jumbotron .banner-logo {
+        margin-top: 10%;
+        margin-left: 0;
+    }
+
+    .banner-logo img {
+        width: 40%;
+    }
+
+    .jumbotron .banner-text {
+        margin-top: 5%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .banner-text h2 {
+        color: #383d3b;
+    }
+
+    .banner-text p, .excel-link, .yka-link {
+        color: #383d3b;
+    }
+
+    .excel-link:hover, .excel-link:active{
+        color: #1FB888;
+        text-shadow: 2px 2px 1px #3C7986;
+    }
+    
+    .yka-link:hover, .yka-link:active{
+        color: #F6F6F6;
+        text-shadow: 1px 1px 1px #181818, 2px 2px 2px rgb(133, 0, 0);
+    }
+}
+
+
+section .title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section .title h2 {
+    color: #383d3b;
+    font-size: 2em;    
+}
+
+
+.event-grid {
+    text-align: center;
+    padding: 30px 15px;
+    margin: 0 5px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.0) 0%, rgba(255, 255, 255, 0.1) 100%);
+    color: #ffffff;
+}
+
+.blogging {
+    background: rgba(235, 112, 11, 0.7);
+}
+
+.selection {
+    background: rgba(7, 141, 141, 0.7);
+}
+
+.vlogging {
+    background: rgba(235, 11, 11, 0.7);
+}
+
+.voting {
+    background: rgba(9, 188, 9, 0.7);
+}
+
+.event-grid .glyph-wrapper{
+    border-bottom: 1px solid #ffffff1e;
+}
+
+.event-grid span{
+    font-size: 1.5em;
+    padding: 1em;
+    margin: 0.5em;
+    color: #383d3b;
+    background: #FFF6;
+    border-radius: 50% 50%;
+    border:1px solid #ffffffcc;
+}
+
+.event-grid h3 {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.event-grid h3 small {
+    font-weight: 300;
+    font-size: 0.7em;
+    color: #ffffffcc;
+}
+
+.event-grid p {
+    font-weight: 400;
+}
+
+#prizes-section {
+    padding-top: 40px;
+}
+
+.prizes .col-md-6 {
+    padding: 0;
+}
+
+.win-list li {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1em;
+    font-weight: 400;
+    display: block;
+}
+
+.win-list li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-left: -17px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) {
+    .blogger-vlogger li {
+        line-height: 2em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .win-list li {
+        font-weight: 500;
+    }
+}
+
+.prize-grid-container {
+    height: 100%;
+}
+
+.blogger-vlogger {
+    background: rgba(9, 188, 9, 0.6);
+    padding: 20px 10%;
+    padding-bottom: 60px;
+}
+
+.blogger-vlogger .ribbon{
+    background: #09bc09;
+}
+
+.blogger-vlogger .ribbon:before, .blogger-vlogger .ribbon:after {
+    border-color: #019401;
+}
+
+.blogger-vlogger .ribbon .ribbon-content:before, 
+.blogger-vlogger .ribbon .ribbon-content:after {
+    border-color: #007400 transparent transparent transparent;
+} 
+
+.blogger {
+    background: rgba(235, 112, 11, 0.6);
+    padding: 20px 10%;
+    padding-bottom: 40px;
+    min-height: 50%;
+}
+
+.blogger .ribbon{
+    background: #eb700b;
+}
+
+.blogger .ribbon:before, .blogger .ribbon:after {
+    border-color: #b95502;
+}
+
+.blogger .ribbon .ribbon-content:before, 
+.blogger .ribbon .ribbon-content:after {
+    border-color: #904100 transparent transparent transparent;
+} 
+
+.vlogger {
+    background: rgba(235, 11, 11, 0.6);
+    padding: 20px 10%;
+    padding-bottom: 40px;
+    min-height: 50%;
+}
+
+.vlogger .ribbon{
+    background: #eb0b0b;
+}
+
+.vlogger .ribbon:before, .vlogger .ribbon:after {
+    border-color: #b90202;
+}
+
+.vlogger .ribbon .ribbon-content:before, 
+.vlogger .ribbon .ribbon-content:after {
+    border-color: #900000 transparent transparent transparent;
+} 
+
+/* Must happen after all coloring for ribbon*/
+.prize-grid-container .ribbon:before {
+    border-left-color: transparent;
+}
+
+.prize-grid-container .ribbon:after {
+    border-right-color: transparent;
+}
+
+#rules-section {
+    padding: 20px 0;
+}
+
+.rules {
+    background: rgba(7, 141, 141, 0.6);
+    padding: 70px 10%;
+}
+
+.rules .title h2 {
+    color: #292f2c;
+}
+
+.rules .title span{
+    color: #ffffff;
+}
+
+.rules-list {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.rules-list li {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.rules-list h4 {
+    margin-top: 1.5em;
+}
+
+.rules-list li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-left: -17px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.rules .btn {
+    white-space: normal;
+}
+
+.rules a {
+    margin-top: 10%;
+}
+
+.sponsors-container {
+    margin: 40px 0px;
+}
+
+.sponsors-container img {
+    margin: auto 0;
+    padding: 2%;
+}
+
+#contacts-section {
+    padding-top: 20px;
+    background: linear-gradient(180deg, #ffffff98 50%, #e8f1f2 100%);
+}
+
+.contacts h4 {
+    line-height: 1.5em;
+}
