@@ -360,6 +360,7 @@ section .title h2 {
 .sponsors-container img {
     margin: auto 0;
     padding: 2%;
+    max-width: 100%;
 }
 
 #contacts-section {
