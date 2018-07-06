@@ -341,7 +341,16 @@ section .title h2 {
 }
 
 .rules a {
-    margin-top: 10%;
+    margin-top: 5%;
+}
+
+.rules-link {
+    text-align: center;
+}
+
+.rules-link a {
+    margin-top: 8%;
+    margin-bottom: 2%;
 }
 
 .sponsors-container {
