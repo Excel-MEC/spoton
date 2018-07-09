@@ -49,7 +49,7 @@ body {
 .banner-text h2{
     padding-top: 1em;
     font-weight: 900;
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -188,6 +188,12 @@ section .title h2 {
 
 .prizes .col-md-6 {
     padding: 0;
+}
+
+.prizes span {
+    color: white;
+    top: -1em;
+    position: relative;
 }
 
 .win-list li {
@@ -370,4 +376,13 @@ section .title h2 {
 
 .contacts h4 {
     line-height: 1.5em;
+}
+
+.contacts .insta-handle{
+    margin: 30px auto;
+    display: block;
+}
+
+.insta-handle img {
+    width: 100%;
 }
