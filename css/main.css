@@ -218,6 +218,7 @@ section .title h2 {
     .blogger-vlogger li {
         line-height: 2em;
     }
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -386,3 +387,20 @@ section .title h2 {
 .insta-handle img {
     width: 100%;
 }
+
+.banner-logo img.spoton-logo{
+    display: none;
+}
+
+@media (max-width:760px){
+    
+    .banner-logo img.spoton-logo-inv{
+        display: none;
+    }
+
+    .banner-logo img.spoton-logo{
+        display: unset;
+    }
+
+}
+
