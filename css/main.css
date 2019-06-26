@@ -136,6 +136,14 @@ section .title h2 {
     color: #ffffff;
 }
 
+.haiku {
+    background: rgba(9, 188, 9, 0.7)
+}
+
+.mystery {
+    background: rgba(0,0,0,0.7)
+}
+
 .blogging {
     background: rgba(235, 112, 11, 0.7);
 }
