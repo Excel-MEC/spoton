@@ -79,17 +79,17 @@ body {
 
 /* timeline */
 
-#content p {
+#timeline-section p {
     font-weight: 300;
     color: white;
 }
 
-#content h3 {
+#timeline-section h3 {
     font-size: 0.8em;
     color: white
 }
 
-#content {
+#timeline-section {
     margin-top: 50px;
     padding: 20px;
     text-align: center;
