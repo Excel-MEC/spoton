@@ -209,6 +209,8 @@ section .title h2 {
     font-size: 1.1em;
     font-weight: 400;
     display: block;
+    text-align: left;
+    margin-left: 20px;
 }
 
 .win-list li:before {
@@ -217,13 +219,40 @@ section .title h2 {
     font-family: 'Glyphicons Halflings';
     font-size: 9px;
     float: left;
-    margin-left: -17px;
+    padding-right: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.topics-list {
+    text-align: left;
+}
+
+.topics-list-haiku li{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.topics-list li:before{
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 10px;
+    float: left;
+    margin-left: 90px;
+    padding-right: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.topics-list-haiku li:before{
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 10px;
+    padding-right: 10px;
     color: rgba(255, 255, 255, 0.5);
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 768px) {
-    .blogger-vlogger li {
+    .blogger-haiku li {
         line-height: 2em;
     }
 
@@ -240,22 +269,22 @@ section .title h2 {
     height: 100%;
 }
 
-.blogger-vlogger {
+.blogger-haiku {
     background: rgba(9, 188, 9, 0.6);
     padding: 20px 10%;
     padding-bottom: 60px;
 }
 
-.blogger-vlogger .ribbon{
+.blogger-haiku .ribbon{
     background: #09bc09;
 }
 
-.blogger-vlogger .ribbon:before, .blogger-vlogger .ribbon:after {
+.blogger-haiku .ribbon:before, .blogger-haiku .ribbon:after {
     border-color: #019401;
 }
 
-.blogger-vlogger .ribbon .ribbon-content:before, 
-.blogger-vlogger .ribbon .ribbon-content:after {
+.blogger-haiku .ribbon .ribbon-content:before, 
+.blogger-haiku .ribbon .ribbon-content:after {
     border-color: #007400 transparent transparent transparent;
 } 
 
@@ -277,26 +306,6 @@ section .title h2 {
 .blogger .ribbon .ribbon-content:before, 
 .blogger .ribbon .ribbon-content:after {
     border-color: #904100 transparent transparent transparent;
-} 
-
-.vlogger {
-    background: rgba(235, 11, 11, 0.6);
-    padding: 20px 10%;
-    padding-bottom: 40px;
-    min-height: 50%;
-}
-
-.vlogger .ribbon{
-    background: #eb0b0b;
-}
-
-.vlogger .ribbon:before, .vlogger .ribbon:after {
-    border-color: #b90202;
-}
-
-.vlogger .ribbon .ribbon-content:before, 
-.vlogger .ribbon .ribbon-content:after {
-    border-color: #900000 transparent transparent transparent;
 } 
 
 /* Must happen after all coloring for ribbon*/
