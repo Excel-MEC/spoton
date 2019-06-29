@@ -23,6 +23,10 @@ body {
     background-image: -ms-radial-gradient(10% 10%, circle closest-side, #000000 0%, #0c0c0c 100%);   */
 }
 
+.section-wrapper {
+    padding: 50px 0px 50px 0px;
+}
+
 .jumbotron .content {
     top: 40%;
 }
@@ -41,7 +45,7 @@ body {
 }
 
 .jumbotron .banner-text {
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 5%;
     text-align: left;
 }
@@ -74,26 +78,28 @@ body {
 
 /* timeline */
 
-#timeline-section p {
-    font-weight: 300;
-    color: white;
-}
-
 #timeline-section h3 {
     font-size: 1em;
-    color: white
+    color: white;
+    font-weight: 400;
 }
 
 #timeline-section {
-    padding: 20px;
-    background: #202124;
-    margin-top: 50px;
     text-align: center;
     color: white
 }
 
+.timeline-content {
+    background: #393e46;
+    padding: 10px;
+}
+
+.timeline-content h2 {
+    margin-top: 40px;
+}
+
 .timeline {
-    border-left: 4px solid #03dac6;
+    border-left: 4px solid #00adb5;
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
     margin: 50px auto;
@@ -130,14 +136,14 @@ body {
     left: -217.5px;
     content: attr(data-date);
     text-align: right;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1em;
     min-width: 140px;
     color: white
 }
 
 .timeline .event:after {
-    box-shadow: 0 0 0 4px #03dac6;
+    box-shadow: 0 0 0 4px #00adb5;
     left: -58.85px;
     background: #ffffff;
     border-radius: 50%;
@@ -156,11 +162,16 @@ body {
     padding: 15px 0px 30px 0px;
 }
 
+.video {
+    max-width: 80vw;
+    margin: 30px auto;
+}
 /* Medium devices (desktops, 992px and up) */
 
 @media (max-width: 768px) {
     .jumbotron {
         background: none;
+        height: 100%;
     }
     .jumbotron .banner-logo {
         margin-top: 10%;
@@ -192,7 +203,7 @@ body {
 
 section .title {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 section .title h2 {
@@ -390,7 +401,7 @@ section .title h2 {
 }
 
 #rules-section {
-    padding: 20px 0;
+    padding: 20px 0 80px 0px;
 }
 
 .rules {
@@ -490,5 +501,8 @@ section .title h2 {
     }
     .banner-logo img.spoton-logo {
         display: unset;
+    }    
+    .timeline .event:after {
+        left: -57.85px;
     }
 }
