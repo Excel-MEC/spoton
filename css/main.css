@@ -72,11 +72,6 @@ body {
     text-shadow: 2px 2px 8px #3C7986;
 }
 
-.yka-link:hover, .yka-link:active {
-    color: #F6F6F6;
-    text-shadow: 1px 1px 3px #181818, 2px 2px 8px rgb(133, 0, 0);
-}
-
 /* timeline */
 
 #timeline-section p {
@@ -90,10 +85,10 @@ body {
 }
 
 #timeline-section {
-    margin-top: 50px;
     padding: 20px;
-    text-align: center;
     background: #202124;
+    margin-top: 50px;
+    text-align: center;
     color: white
 }
 
@@ -419,10 +414,13 @@ section .title h2 {
 .rules-list li {
     color: rgba(255, 255, 255, 0.8);
     font-weight: 500;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 2em;
 }
 
+.rules-list p {
+    font-size: 1.1em;
+}
 .rules-list h4 {
     margin-top: 1.5em;
 }
