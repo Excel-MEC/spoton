@@ -14,6 +14,10 @@ body {
     font-size: 1em;
 }
 
+.sticky-nav {
+    position: fixed;
+}
+
 .jumbotron {
     background: linear-gradient(-90deg, rgba(235, 11, 11, 0.9) 0%, #eb0b0b 50%, #ffffff 50%, #e8f1f2 100%);
     background-size: cover;
