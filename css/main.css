@@ -170,6 +170,7 @@ body {
     max-width: 80vw;
     margin: 30px auto;
 }
+
 /* Medium devices (desktops, 992px and up) */
 
 @media (max-width: 768px) {
@@ -408,18 +409,61 @@ section .title h2 {
     padding: 20px 0 80px 0px;
 }
 
+.presents-text {
+    color: white
+}
+
+.presents-list {
+    text-align: center;
+}
+
+.presents-list li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: none;
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-left: -17px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 .rules {
     background: rgba(7, 141, 141, 0.6);
     padding: 70px 10%;
 }
 
 .rules .title h2 {
-    color: #292f2c;
+    color: #424242;
 }
 
 .rules .title span {
     color: #ffffff;
 }
+
+/* ========= */
+
+.presents-list {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.presents-list li {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 2em;
+    text-align: center;
+}
+
+.presents-list p {
+    font-size: 1.1em;
+}
+
+.presents-list h4 {
+    margin-top: 1.5em;
+}
+
+/* ======= */
 
 .rules-list {
     text-align: left;
@@ -436,11 +480,12 @@ section .title h2 {
 .rules-list p {
     font-size: 1.1em;
 }
+
 .rules-list h4 {
     margin-top: 1.5em;
 }
 
-.rules-list li:before {
+.rules-list :before {
     /*Using a Bootstrap glyphicon as the bullet point*/
     content: "\e080";
     font-family: 'Glyphicons Halflings';
@@ -505,7 +550,7 @@ section .title h2 {
     }
     .banner-logo img.spoton-logo {
         display: unset;
-    }    
+    }
     .timeline .event:after {
         left: -57.85px;
     }
