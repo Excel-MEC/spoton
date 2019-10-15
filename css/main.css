@@ -477,6 +477,10 @@ section .title h2 {
     line-height: 2em;
 }
 
+.rules-list li a:before {
+    content: none;
+}
+
 .rules-list p {
     font-size: 1.1em;
 }
